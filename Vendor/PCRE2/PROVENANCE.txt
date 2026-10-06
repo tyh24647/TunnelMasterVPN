@@ -1,0 +1,4 @@
+PCRE2 10.49
+https://github.com/PCRE2Project/pcre2/releases/tag/pcre2-10.49
+Archive SHA256: 929f0b20e62879252a15886b06c89f1edef61a363cbd5826fb041080a5e557ae
+Generic config adapted for portable 8-bit Unicode, no JIT. Upstream sources unmodified.

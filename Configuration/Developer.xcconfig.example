@@ -1,0 +1,6 @@
+// Copy to Developer.xcconfig. Use your registered identifiers and organization team.
+DEVELOPMENT_TEAM = YOURTEAMID
+TD_BUNDLE_PREFIX = com.tyh24647.TunnelDojo
+// xcconfig treats // as a comment; keep the slash escape below.
+TD_SERVICE_URL = https:/$()/vpn-api.your-domain.example
+TD_SUPPORT_EMAIL = support@your-domain.example

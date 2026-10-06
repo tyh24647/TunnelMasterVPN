@@ -1,0 +1,4 @@
+WireGuard Apple GitHub mirror
+https://github.com/WireGuard/wireguard-apple
+Commit 2fec12a6e1f6e3460b6ee483aa00ad29cddadab1
+Required engine sources and wg-quick parser retained. Unrelated app UI omitted. Source code unmodified. See COPYING and per-file licenses.

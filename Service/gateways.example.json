@@ -1,0 +1,20 @@
+{
+  "servers": [
+    {
+      "id": "us-ny-01",
+      "country": "United States",
+      "city": "New York",
+      "premium": false,
+      "protocols": ["IKEv2 / IPsec", "WireGuard"],
+      "purposes": [],
+      "online": false,
+      "latencyMS": null,
+      "loadPercent": null,
+      "uptimePercent": null,
+      "capacityMbps": null,
+      "auditURL": null,
+      "multihopExits": [],
+      "measuredAt": null
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>CredentialGroup</key>
+	<string>$(AppIdentifierPrefix)$(TD_BUNDLE_PREFIX).credentials</string>
+	<key>CFBundleDisplayName</key>
+	<string>TunnelMaster VPN - [⇅] - Free • Custom • Unlimited</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>UILaunchScreen</key>
+	<dict/>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+	</dict>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>tunneldojo</string>
+			</array>
+			<key>CFBundleURLName</key>
+			<string>TunnelMaster VPN account callback</string>
+		</dict>
+	</array>
+	<key>ServiceBaseURL</key>
+	<string>$(TD_SERVICE_URL)</string>
+	<key>SupportEmail</key>
+	<string>$(TD_SUPPORT_EMAIL)</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<true/>
+</dict>
+</plist>

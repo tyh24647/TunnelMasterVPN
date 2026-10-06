@@ -1,0 +1,213 @@
+{
+  "identifier": "B361F586-EBC1-4B9A-9257-323759F524DF",
+  "nonRenewingSubscriptions": [],
+  "products": [
+    {
+      "displayPrice": "69.99",
+      "familyShareable": false,
+      "internalID": "individual-lifetime",
+      "localizations": [
+        {
+          "description": "Premium VPN service",
+          "displayName": "TunnelMaster VPN Individual Lifetime",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.tyh24647.TunnelDojo.individual.lifetime",
+      "referenceName": "individual lifetime",
+      "type": "NonConsumable"
+    },
+    {
+      "displayPrice": "199.99",
+      "familyShareable": true,
+      "internalID": "family-lifetime",
+      "localizations": [
+        {
+          "description": "Premium VPN service for your family",
+          "displayName": "TunnelMaster VPN Family Lifetime",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.tyh24647.TunnelDojo.family.lifetime",
+      "referenceName": "family lifetime",
+      "type": "NonConsumable"
+    }
+  ],
+  "settings": {
+    "_applicationInternalID": "",
+    "_developerTeamID": "",
+    "_failTransactionsEnabled": false,
+    "_locale": "en_US",
+    "_storefront": "USA",
+    "_storeKitErrors": []
+  },
+  "subscriptionGroups": [
+    {
+      "id": "TUNNELDOJO-PREMIUM",
+      "name": "TunnelMaster VPN Premium",
+      "localizations": [],
+      "subscriptions": [
+        {
+          "displayPrice": "0.99",
+          "familyShareable": false,
+          "internalID": "individual-weekly",
+          "localizations": [
+            {
+              "description": "Premium VPN service",
+              "displayName": "TunnelMaster VPN Individual Weekly",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "com.tyh24647.TunnelDojo.individual.weekly",
+          "referenceName": "individual weekly",
+          "type": "RecurringSubscription",
+          "adHocOffers": [],
+          "codeOffers": [],
+          "groupNumber": 2,
+          "subscriptionGroupID": "TUNNELDOJO-PREMIUM",
+          "recurringSubscriptionPeriod": "P1W",
+          "introductoryOffer": {
+            "internalID": "trial-individual-weekly",
+            "paymentMode": "free",
+            "subscriptionPeriod": "P1W",
+            "numberOfPeriods": 1
+          }
+        },
+        {
+          "displayPrice": "2.99",
+          "familyShareable": false,
+          "internalID": "individual-monthly",
+          "localizations": [
+            {
+              "description": "Premium VPN service",
+              "displayName": "TunnelMaster VPN Individual Monthly",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "com.tyh24647.TunnelDojo.individual.monthly",
+          "referenceName": "individual monthly",
+          "type": "RecurringSubscription",
+          "adHocOffers": [],
+          "codeOffers": [],
+          "groupNumber": 2,
+          "subscriptionGroupID": "TUNNELDOJO-PREMIUM",
+          "recurringSubscriptionPeriod": "P1M",
+          "introductoryOffer": {
+            "internalID": "trial-individual-monthly",
+            "paymentMode": "free",
+            "subscriptionPeriod": "P1W",
+            "numberOfPeriods": 1
+          }
+        },
+        {
+          "displayPrice": "24.99",
+          "familyShareable": false,
+          "internalID": "individual-yearly",
+          "localizations": [
+            {
+              "description": "Premium VPN service",
+              "displayName": "TunnelMaster VPN Individual Yearly",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "com.tyh24647.TunnelDojo.individual.yearly",
+          "referenceName": "individual yearly",
+          "type": "RecurringSubscription",
+          "adHocOffers": [],
+          "codeOffers": [],
+          "groupNumber": 2,
+          "subscriptionGroupID": "TUNNELDOJO-PREMIUM",
+          "recurringSubscriptionPeriod": "P1Y",
+          "introductoryOffer": {
+            "internalID": "trial-individual-yearly",
+            "paymentMode": "free",
+            "subscriptionPeriod": "P1W",
+            "numberOfPeriods": 1
+          }
+        },
+        {
+          "displayPrice": "2.99",
+          "familyShareable": true,
+          "internalID": "family-weekly",
+          "localizations": [
+            {
+              "description": "Premium VPN service for your family",
+              "displayName": "TunnelMaster VPN Family Weekly",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "com.tyh24647.TunnelDojo.family.weekly",
+          "referenceName": "family weekly",
+          "type": "RecurringSubscription",
+          "adHocOffers": [],
+          "codeOffers": [],
+          "groupNumber": 1,
+          "subscriptionGroupID": "TUNNELDOJO-PREMIUM",
+          "recurringSubscriptionPeriod": "P1W",
+          "introductoryOffer": {
+            "internalID": "trial-family-weekly",
+            "paymentMode": "free",
+            "subscriptionPeriod": "P1W",
+            "numberOfPeriods": 1
+          }
+        },
+        {
+          "displayPrice": "9.99",
+          "familyShareable": true,
+          "internalID": "family-monthly",
+          "localizations": [
+            {
+              "description": "Premium VPN service for your family",
+              "displayName": "TunnelMaster VPN Family Monthly",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "com.tyh24647.TunnelDojo.family.monthly",
+          "referenceName": "family monthly",
+          "type": "RecurringSubscription",
+          "adHocOffers": [],
+          "codeOffers": [],
+          "groupNumber": 1,
+          "subscriptionGroupID": "TUNNELDOJO-PREMIUM",
+          "recurringSubscriptionPeriod": "P1M",
+          "introductoryOffer": {
+            "internalID": "trial-family-monthly",
+            "paymentMode": "free",
+            "subscriptionPeriod": "P1W",
+            "numberOfPeriods": 1
+          }
+        },
+        {
+          "displayPrice": "49.99",
+          "familyShareable": true,
+          "internalID": "family-yearly",
+          "localizations": [
+            {
+              "description": "Premium VPN service for your family",
+              "displayName": "TunnelMaster VPN Family Yearly",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "com.tyh24647.TunnelDojo.family.yearly",
+          "referenceName": "family yearly",
+          "type": "RecurringSubscription",
+          "adHocOffers": [],
+          "codeOffers": [],
+          "groupNumber": 1,
+          "subscriptionGroupID": "TUNNELDOJO-PREMIUM",
+          "recurringSubscriptionPeriod": "P1Y",
+          "introductoryOffer": {
+            "internalID": "trial-family-yearly",
+            "paymentMode": "free",
+            "subscriptionPeriod": "P1W",
+            "numberOfPeriods": 1
+          }
+        }
+      ]
+    }
+  ],
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
+}
